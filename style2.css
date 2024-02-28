@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100hv;
+
+}
+
+h4 {
+    float: left;
+
+    margin-top: 2px;
+    font-weight: bold;
+    margin: 0px;
+
+}
+
+.contenedor {
+    width: 33%;
+    max-width: 700px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 8px;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.925);
+    top: 90px;
+    background-color: rgba(240, 237, 237, 0.753);
+
+    
+
+}
+
+.color-hex {
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 1.5 rem;
+    margin: 1rem 0 1rem 0;
+
+}
+
+
+
+.cajitascolores {
+    border: 1px solid rgba(0, 0, 0, 0.925);
+    /* display: inline-block; */
+    display:inline-flex
+    /* height: 33% ; */
+    width: 60px;
+    /* float: center; */
+    margin: 5px 2px;
+    padding: 2px 2px;
+    font-size: 25px;
+    cursor: pointer;
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .contenedor {
+        width: 90%;
+
+    }
+}
+
+.segunda {
+    background-color: blue;
+
+}
+
+.tercera {
+    background-color: rgba(88, 180, 26, 0.973);
+}
+
+.primera {
+    background-color: rgb(255, 6, 6);
+}
